@@ -48,13 +48,13 @@ export default function Column({
 
           {filteredTasks.length === 0 && status === 'TODO' && (
             <div className='mt-8 text-center text-sm text-gray-500'>
-              <p>Create a new task</p>
+              <p>Create a new Application to track</p>
             </div>
           )}
 
           {tasks.length && filteredTasks.length === 0 && status !== 'TODO' ? (
             <div className='mt-8 text-center text-sm text-gray-500'>
-              <p>Drag your tasks here</p>
+              <p>Drag your Application here</p>
             </div>
           ) : null}
         </div>
